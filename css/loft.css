@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+body {
+    margin:0;
+    position: relative;
+    background-position: center;
+}
+nav {
+  width: 100%;
+  margin: 0 auto 30px;
+  color: #fff;
+  background-color: #313131;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu{
+    padding-left: 140px;
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+ 
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  transition: .5s linear;
+}
+.fa {
+  font-family: "FontAwesome";
+  color: inherit;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.one ul {
+  background: #313131;
+}
+.one ul a {
+  color: #fff;
+}
+.one .submenu {
+  display: none;
+  background: #313131;
+}
+.one ul li:hover .submenu {
+  display: block;
+}
+/* .right-number{
+float: right;
+background-image: url("../img/phone.svg");
+
+padding-left: 21px;
+position: relative;
+  margin-right: 64px;
+  padding-bottom: 10px;
+  padding-top: 9px;
+  font-weight: 500;
+  
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+.right-dost{
+    background-image: url("../img/delivery-icon.svg");
+    float: right;
+padding-left: 21px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-right: 64px;
+  position: relative;
+  
+    } */
+    .phone {
+        background-image: url("../img/phone.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 11px;
+        bottom: 50px;
+        right: 50px;
+        float: right;
+        
+        
+    }
+    .delivery{
+        background-image: url("../img/delivery-icon.svg");
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-left: 21px;
+        bottom: 50px;
+        right: 50px;
+        float: right;
+        padding-right: 120px;
+    }
+    .logo1{
+        background-image: url("../img/LOGO.svg");
+        position: absolute;
+width: 112.96px;
+height: 25px;
+left: 140px;
+top: 70px;
+
+    }
