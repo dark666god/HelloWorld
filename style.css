@@ -132,15 +132,12 @@ hr {
   font-style: italic;
   font-weight: bold;
 }
-/* box model */
 
 .bg-yellow {
   position: relative;
-
 }
 .bg-green {
   position: relative;
-  /* background: #6e635949; */
 }
 .bg-red {
   position: relative;
@@ -176,14 +173,14 @@ hr {
   background-position: left;
 }
 .skill-html {
-  background-image: url("../img/icon-html.svg");
+  background-image: url("img/icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("../img/icon-css.svg");
+  background-image: url("img/icon-css.svg");
 }
 .skill-js {
-  background-image: url("../img/icons8-javascript-logo.svg");
+  background-image: url("img/icons8-javascript-logo.svg");
 }
 .level {
   margin: 0 0 40px;
